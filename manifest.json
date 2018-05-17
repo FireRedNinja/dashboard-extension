@@ -1,0 +1,13 @@
+{
+    "name": "Dashboard",
+    "version": "1.0",
+    "description": "My Dashboard",
+    "manifest_version": 2,
+    "permissions": [
+        "storage",
+        "<all_urls>"
+    ],
+    "chrome_url_overrides" : {
+    	"newtab": "index.html"
+    }
+}
