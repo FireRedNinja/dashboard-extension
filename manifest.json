@@ -1,13 +1,12 @@
 {
-    "name": "Dashboard",
+    "name": "New Tab Start Page",
     "version": "1.0",
-    "description": "My Dashboard",
+    "description": "My Personal Dashboard",
     "manifest_version": 2,
     "permissions": [
-        "storage",
-        "<all_urls>"
+        "storage"
     ],
     "chrome_url_overrides" : {
-    	"newtab": "index.html"
+    	"newtab": "./index.html"
     }
 }
