@@ -1,5 +1,7 @@
 # dashboard
 
+![Screenshot](./docs/screenshot.png)
+
 ## Project setup
 ```
 npm install
