@@ -24,7 +24,7 @@ export default {
 .center-section {
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 0.75fr));
   justify-self: center;
   align-self: center;
   max-width: 72rem;
@@ -34,5 +34,6 @@ export default {
   width: 100vw;
   height: 100vh;
   display: grid;
+  /* opacity: 0; */
 }
 </style>

@@ -10,10 +10,9 @@ export default {
 
 <style scoped>
 .greeting {
-  --tw-text-opacity: 0.4;
-  color: rgba(255, 229, 127, var(--tw-text-opacity));
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 215, 64, var(--tw-text-opacity));
+  font-size: 3rem;
   text-align: center;
 }
 </style>
