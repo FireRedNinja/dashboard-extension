@@ -1,13 +1,14 @@
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
+  outputDir: "firefox",
   configureWebpack: {
     plugins: [
       new CopyPlugin({
         patterns: [
           {
-            from: "./manifest.json",
-            to: "."
+            from: "./firefox.manifest.json",
+            to: "./manifest.json"
           },
         ],
       }),

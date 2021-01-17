@@ -1,6 +1,6 @@
 # dashboard
 
-![Screenshot](./docs/screenshot.png)
+![Screenshot](./docs/screenshot.jpg)
 
 ## Project setup
 ```
