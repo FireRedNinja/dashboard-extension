@@ -4,26 +4,24 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:chrome": "VUE_CLI_SERVICE_CONFIG_PATH=vue.config.chrome.js vue-cli-service build",
-    "build:firefox": "VUE_CLI_SERVICE_CONFIG_PATH=vue.config.firefox.js vue-cli-service build",
-    "build": "npm run build:chrome && npm run build:firefox",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "core-js": "^3.6.5",
-    "vue": "^3.0.4"
+    "core-js": "^3.8.2",
+    "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/cli-plugin-babel": "^4.5.10",
+    "@vue/cli-plugin-eslint": "^4.5.10",
+    "@vue/cli-service": "^4.5.10",
+    "@vue/compiler-sfc": "^3.0.5",
     "autoprefixer": "^9.8.6",
     "babel-eslint": "^10.1.0",
     "copy-webpack-plugin": "^6.4.1",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-vue": "^7.4.1",
     "sass": "^1.32.4",
     "sass-loader": "^10.1.1",
     "sweet-modal-vue": "^2.0.0",
