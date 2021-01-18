@@ -1,10 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "New Tab Start Page",
+  "name": "Dashboard",
   "version": "1.0",
   "description": "My Personal Dashboard",
   "chrome_url_overrides": {
     "newtab": "./index.html"
   },
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dashboard@fireredninja.com"
+    }
+  }
 }
