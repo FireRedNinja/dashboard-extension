@@ -1,8 +1,10 @@
-# dashboard
+# Firefox New Tab Dashboard
+
 
 ![Screenshot](./docs/screenshot.jpg)
 
 ## Project setup
+You'll need to get an API key from Mapbox and replace `"REPLACE ME"` from `mapboxToken.template.js` and rename it to `mapboxToken.js`.
 ```
 npm install
 ```
