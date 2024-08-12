@@ -2,11 +2,6 @@
   <h1 class="greeting">Greetings FireRedNinja</h1>
 </template>
 
-<script>
-export default {
-  name: "Greeting",
-};
-</script>
 
 <style scoped>
 .greeting {

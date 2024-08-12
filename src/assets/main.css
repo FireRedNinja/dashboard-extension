@@ -1,0 +1,6 @@
+@import './base.css';
+
+body {
+  display: flex;
+  font-weight: normal;
+}

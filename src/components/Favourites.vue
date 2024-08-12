@@ -71,12 +71,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Favourites",
-};
-</script>
-
 <style scoped>
 .favourites {
   display: flex;

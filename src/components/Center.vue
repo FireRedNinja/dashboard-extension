@@ -1,3 +1,8 @@
+<script setup>
+import Favourites from './Favourites.vue'
+import Greeting from './Greeting.vue'
+</script>
+
 <template>
   <div class="center">
     <div class="center-section">
@@ -6,19 +11,6 @@
     </div>
   </div>
 </template>
-
-<script>
-import Favourites from "./Favourites";
-import Greeting from "./Greeting";
-
-export default {
-  name: "Center",
-  components: {
-    Favourites,
-    Greeting,
-  },
-};
-</script>
 
 <style scoped>
 .center-section {

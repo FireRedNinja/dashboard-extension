@@ -1,36 +1,24 @@
-<template>
-  <div>
-    <Background />
-    <Center />
-    <Quote />
-  </div>
-</template>
-
-<script>
-import Quote from "./components/Quote";
-import Center from "./components/Center";
-import Background from "./components/Background";
-
-export default {
-  name: "App",
-  components: {
-    Center,
-    Quote,
-    Background,
-  },
-};
+<script setup lang="ts">
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
+import Background from './components/Background.vue'
+import Center from './components/Center.vue'
 </script>
 
-<style>
-#app {
-  font-family: Iosevka, Hack, ui-monospace, SFMono-Regular, Menlo, Monaco,
-    Consolas, "Liberation Mono", "Courier New", monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-body {
-  background-color: rgb(53, 58, 64);
-  margin: 0;
-  padding: 0;
-}
-</style>
+<template>
+  <!-- <header>
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+
+    <div class="wrapper">
+      <HelloWorld msg="You did it!" />
+    </div>
+  </header> -->
+
+  <main>
+    <!-- <TheWelcome /> -->
+    <Background />
+    <Center />
+  </main>
+</template>
+
+<style scoped></style>

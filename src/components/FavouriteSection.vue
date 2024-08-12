@@ -8,11 +8,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "FavouriteSection",
-};
-</script>
 
 <style scoped>
 .title {
