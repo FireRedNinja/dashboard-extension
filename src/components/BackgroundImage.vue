@@ -1,6 +1,6 @@
-<script setup>
+<script setup lang="ts">
 // import summits from '../assets/Walks_API_Summits.json';
-import mapboxToken from '../../mapboxToken'
+import mapboxToken from '../mapboxToken'
 
 let width = 0
 let height = 0
@@ -9,9 +9,7 @@ const long = -4.642479
 const name = 'Beinn Chabhair'
 const token = mapboxToken
 
-const getScale = (src, dst) => {
-  return Math.min(dst.w / src.w, dst.h / src.h)
-}
+
 
 const mapbox_limits = {
   w: 1280,
@@ -23,6 +21,11 @@ const viewbox = {
   w: vw,
   h: vh
 }
+
+const getScale = (src: typeof viewbox, dst: typeof viewbox) => {
+  return Math.min(dst.w / src.w, dst.h / src.h)
+}
+
 const scale = getScale(viewbox, mapbox_limits)
 
 width = Math.floor(viewbox.w * scale)
@@ -35,10 +38,8 @@ height = Math.floor(viewbox.h * scale)
 </script>
 
 <template>
-  <img
-    alt="static Mapbox map of {{name}}"
-    :src="`https://api.mapbox.com/styles/v1/fajisklod/ckjh6rezp0czu19pdu268hayb/static/${long},${lat},13.0,0.00,0.00/${width}x${height}@2x?access_token=${token}`"
-  />
+  <img :alt="`static Mapbox map of ${name}`"
+    :src="`https://api.mapbox.com/styles/v1/fajisklod/ckjh6rezp0czu19pdu268hayb/static/${long},${lat},13.0,0.00,0.00/${width}x${height}@2x?access_token=${token}`" />
 </template>
 
 <style scoped>

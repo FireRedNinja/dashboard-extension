@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import Background from './components/Background.vue'
-import Center from './components/Center.vue'
+import BackgroundImage from './components/BackgroundImage.vue'
+import CenterGreeting from './components/CenterGreeting.vue'
 </script>
 
 <template>
@@ -16,8 +14,8 @@ import Center from './components/Center.vue'
 
   <main>
     <!-- <TheWelcome /> -->
-    <Background />
-    <Center />
+    <BackgroundImage />
+    <CenterGreeting />
   </main>
 </template>
 

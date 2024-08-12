@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Favourites from './Favourites.vue'
 import Greeting from './Greeting.vue'
 </script>
@@ -21,6 +21,7 @@ import Greeting from './Greeting.vue'
   align-self: center;
   max-width: 72rem;
 }
+
 .center {
   position: fixed;
   width: 100vw;
